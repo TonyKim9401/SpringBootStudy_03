@@ -12,5 +12,6 @@
     out.write("=");
     out.write(request.getAttribute("value").toString());
 %>
+<h1>${x} + ${y} = ${value}</h1>
 </body>
 </html>

@@ -8,13 +8,11 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<img src="intellij.jpg">
-<br>
-<%
-    for(int i = 0; i < 100; i++){
-        out.write("hello world<br>");
-    }
-%>
+<form method = "get" action="/plus">
+    x : <input type="text" name = "x"><br>
+    y : <input type="text" name = "y"><br>
+    <input type="submit" value="plus">
+</form>
 <a href="hello-servlet">Hello World</a>
 </body>
 </html>
